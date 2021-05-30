@@ -1,0 +1,18 @@
+.Search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.search-input{
+    padding: 8px 15px;
+    font-size: 15px;
+    width: 400px;
+    border: 0px;
+    border-radius: 50px;
+    background: #a5a5a5;
+    color: aliceblue;
+}
+.search-input:focus{
+    outline: none;
+}

@@ -1,0 +1,31 @@
+.head-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+.header-img{
+    width: auto;
+    transition: max-width 1s, min-width 1s;
+
+    
+}
+.head-img-expanded{
+    min-width: 230px;
+    max-width: 250px;
+}
+.head-img-contracted{
+    min-width: 40px;
+    max-width: 60px;
+}
+.head-text{
+    margin-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    transition: font-size 1s ;
+}
+.head-text-expanded{
+   font-size: 60px;
+}
+.head-text-contracted{
+    font-size: 30px;
+}
